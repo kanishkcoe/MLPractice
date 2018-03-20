@@ -44,6 +44,7 @@ def run():
     initial_b = 0
     intial_m = 0
     num_iterations = 1000
+    print(points[1])
     b, m = gradient_descent_runner(points, initial_b, intial_m, learning_rate, num_iterations)
     print("intercept = ", b)
     print("slope = ", m)
